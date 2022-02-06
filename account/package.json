@@ -1,0 +1,19 @@
+{
+  "name": "account",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.33.0",
+    "borsh": "^0.7.0",
+    "mz": "^2.7.0",
+    "os": "^0.1.2",
+    "yaml": "^1.10.2"
+  }
+}

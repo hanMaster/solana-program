@@ -1,0 +1,24 @@
+[package]
+name = "vote-program"
+version = "0.1.0"
+description = "Example template program written in Rust"
+authors = ["Andrey Khalepov <w54661c@gmail.com>"]
+edition = "2021"
+repository = "https://github.com/hanMaster/solana-program"
+homepage = "http://vote.hanmaster.ru/"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+borsh = "0.9.1"
+borsh-derive = "0.9.1"
+solana-program = "=1.9.5"
+
+[dev-dependencies]
+solana-program-test = "=1.9.5"
+solana-sdk = "=1.9.5"
+
+[lib]
+name = "votes"
+crate-type = ["cdylib", "lib"]
